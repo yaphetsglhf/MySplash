@@ -3,10 +3,10 @@ MAINTAINER yaphetsglhf <yaphetsglhf@gmail.com>
 
 ADD install.sh /home/install.sh
 ADD fonts.conf /home/fonts.conf
-ADD NotoColorEmoji.ttf /home/NotoColorEmoji.ttf
 
 WORKDIR /home
 
+RUN apt-get install -y unzip
 RUN chmod +x install.sh && ./install.sh
 
 EXPOSE 8050 5023
