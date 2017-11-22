@@ -7,9 +7,15 @@ import os
 
 BASE_URL = 'http://localhost:8050/'
 RENDER_TYPE = 'render.png?'
+
+# render full page
 RENDER_ALL = '1'
+
+# should better never greater than 95
 QUALITY = '95'
 TIMEOUT = '60'
+
+# render full page
 WAIT = '1'
 
 url = 'https://getemoji.com/'
