@@ -5,7 +5,7 @@ import requests
 import time
 import os
 
-BASE_URL = 'http://localhost:8051/'
+BASE_URL = 'http://localhost:8050/'
 RENDER_TYPE = 'render.png?'
 RENDER_ALL = '1'
 QUALITY = '95'
