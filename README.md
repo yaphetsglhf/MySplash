@@ -9,6 +9,7 @@
 ## Doc-link
 ```
   - https://splash.readthedocs.io/en/stable/install.html
+  - https://github.com/scrapinghub/splash
 ```  
 
 ## Usage
