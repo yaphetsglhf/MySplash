@@ -5,7 +5,7 @@
   - Splash is a javascript rendering service with an HTTP API. It's a lightweight browser with an HTTP API, implemented in Python 3 using Twisted and QT5.
   - Ubuntu 16.04 in docker
   - render pics with headless browser
-  - not support color emojis in Ubuntu, instead fork: [puppeteer]https://github.com/ebidel/try-puppeteer
+  - not support color emojis in Ubuntu, instead fork: [puppeteer](https://github.com/ebidel/try-puppeteer)
 ```
 ## Doc-link
 ```
