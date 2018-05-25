@@ -8,11 +8,9 @@
   - not support color emojis in Ubuntu, instead use puppeteer, fork: https://github.com/ebidel/try-puppeteer
 ```
 ## Doc-link
-```
   - https://splash.readthedocs.io/en/stable/install.html
   - https://github.com/scrapinghub/splash
   - https://github.com/GoogleChrome/puppeteer
-```  
 
 ## Usage
 ```
