@@ -18,16 +18,15 @@ echo "NOTE: Changing default font family to Bitstream Vera"
 # Stop on errors
 set -e
 
+# Set XDG_DATA_HOME to default if empty.
+if [ -z "$XDG_DATA_HOME" ];then
+  XDG_DATA_HOME=$HOME/.local/share
+fi
 
-# # Set XDG_DATA_HOME to default if empty.
-# if [ -z "$XDG_DATA_HOME" ];then
-#   XDG_DATA_HOME=$HOME/.local/share
-# fi
-#
-# # Create a user font directory
-# mkdir -p $XDG_DATA_HOME/fonts
-# echo "Installing the font in: $XDG_DATA_HOME/fonts/"
-# cp $font $XDG_DATA_HOME/fonts/
+# Create a user font directory
+mkdir -p $XDG_DATA_HOME/fonts
+echo "Installing the font in: $XDG_DATA_HOME/fonts/"
+cp $font $XDG_DATA_HOME/fonts/
 
 
 # Create a font config directory
